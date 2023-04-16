@@ -19,8 +19,8 @@ const computer = useGLTF('./macbook/scene.gltf')
       shadow-mapSize={1024}/>
       <primitive
       object={computer.scene}
-      scale={isMobile ? 12 : 17}
-      position={isMobile ? [0,-3,-2.2] : [0,-4,-1.5]}
+      scale={isMobile ? 13 : 17}
+      position={isMobile ? [0,-3.5,-2.2] : [0,-4,-1.5]}
       roation={[-0.1, -0.2, -.01]}/>
     </mesh>
   )
