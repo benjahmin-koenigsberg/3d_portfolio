@@ -9,8 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^7.10.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-parallax-tilt": "^1.7.128",
+    "three": "^0.151.3",
+    "use": "^3.1.1"
   },
   "devDependencies": {
     "@emailjs/browser": "^3.11.0",
