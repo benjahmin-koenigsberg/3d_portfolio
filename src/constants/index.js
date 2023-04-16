@@ -159,7 +159,7 @@ const experiences = [
     ],
   },
   {
-    title: "Owner | Therapist",
+    title: "Owner & Therapist",
     company_name: "Independent Massage Practices",
     icon: massage,
     iconBg: "#fff",
