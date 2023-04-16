@@ -16,6 +16,8 @@ import {
   mongodb,
   git,
   figma,
+  mySql,
+  sass,
   docker,
   meta,
   starbucks,
@@ -72,6 +74,10 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Sass",
+    icon: sass,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -84,10 +90,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -96,8 +98,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "My SQL",
+    icon: mySql,
   },
   {
     name: "Three JS",
@@ -106,14 +108,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
