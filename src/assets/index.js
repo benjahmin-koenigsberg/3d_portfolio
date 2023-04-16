@@ -31,12 +31,14 @@ import MCW from "./company/MCW.png"
 import brainStation from "./company/brainStation.png"
 import spotify from "./company/spotify.png"
 import team from "./team.png";
+import redditBot from "./redditBot.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  redditBot,
   team,
   sass,
   mySql,

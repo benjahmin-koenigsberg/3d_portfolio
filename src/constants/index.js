@@ -24,6 +24,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  redditBot,
   carrent,
   jobit,
   tripguide,
@@ -200,25 +201,29 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Vegan Reddit Bot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The vegan reddit troll bot is an application to monitor incoming posts for specified keywords about animal consumption to auto respond with facts about non human animal sentience and personhood",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "express",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "snoostorm",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: redditBot,
+    source_code_link: "https://github.com/vegan-coder",
   },
   {
     name: "Job IT",
