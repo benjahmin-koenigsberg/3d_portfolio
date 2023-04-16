@@ -1,6 +1,7 @@
 /** @format */
 
 import {
+  team,
   mobile,
   backend,
   creator,
@@ -57,6 +58,10 @@ const services = [
   {
     title: "Backend Developer",
     icon: mobile,
+  },
+  {
+    title: "Team Player",
+    icon: team,
   },
   {
     title: "Animal Rights Activist",
