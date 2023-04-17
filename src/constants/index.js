@@ -23,8 +23,9 @@ import {
   meta,
   starbucks,
   tesla,
-  shopify,
+  spotify,
   redditBot,
+  iwarehouse,
   carrent,
   jobit,
   tripguide,
@@ -32,7 +33,7 @@ import {
   massage,
   MCW,
   brainStation,
-  spotify
+  podify
 } from "../assets";
 
 
@@ -203,7 +204,7 @@ const projects = [
   {
     name: "Vegan Reddit Bot",
     description:
-      "The vegan reddit troll bot is an application to monitor incoming posts for specified keywords about animal consumption to auto respond with facts about non human animal sentience and personhood",
+      "The vegan reddit troll bot is a full stack application that can monitor incoming posts for specified keywords about animal consumption and auto respond with facts about non human animal sentience and personhood",
     tags: [
       {
         name: "react",
@@ -226,46 +227,58 @@ const projects = [
     source_code_link: "https://github.com/vegan-coder",
   },
   {
-    name: "Job IT",
+    name: "iWarehouse",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Full stack CRUD web application to manage seperate warehouses and their inventories. Worked within a team utiliting agiile and scrum methods and git flow",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "scss",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mySQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "knex.js",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "node",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: iwarehouse,
+    source_code_link: "https://github.com/vgean-coder",
   },
   {
-    name: "Trip Guide",
+    name: "SoundBites",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Worked with UI.UX designers, data scientes and other developers for a 24 hour Spotify sponsored hackathon. A new feature, allowing users to share sound bites of their favorite podcasts and use NLP on the collected soundbites to track trends in keywords.  ",
     tags: [
       {
-        name: "nextjs",
+        name: "node",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "knexjs",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: podify,
+    source_code_link: "https://github.com/vegan-coder",
   },
 ];
 

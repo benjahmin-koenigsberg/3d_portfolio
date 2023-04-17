@@ -23,21 +23,22 @@ import threejs from "./tech/threejs.svg";
 import sass from "./tech/sass.png"
 import mySql from "./tech/mySql.png"
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import spotify from "./company/spotify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import massage from "./company/massage.png";
 import MCW from "./company/MCW.png"
 import brainStation from "./company/brainStation.png"
-import spotify from "./company/spotify.png"
 import team from "./team.png";
 import redditBot from "./redditBot.png"
-
+import iwarehouse from "./iwarehouse.png"
+import podify from "./podify.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  iwarehouse,
   redditBot,
   team,
   sass,
@@ -67,7 +68,7 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
+  podify,
   starbucks,
   tesla,
   carrent,
