@@ -137,29 +137,19 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer",
+    title: "24 Hour Hackathon",
     company_name: "Spotify",
     icon: spotify,
     iconBg: "#E6DEDD",
     date: "Apr 2023",
     points: [
-      "Collaborated designers, product managers, data scientists and other developers to create high-quality products.",
+      "Collaborated with designers, product managers, data scientists and other developers to create high-quality products.",
       "Developed a backend solutions to improve Sptofy's listerner and creator experiences.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Lead Therapist",
-    company_name: "Miami Chiropractic and Wellness",
-    icon: MCW,
-    iconBg: "#383E56",
-    date: "Aug 2021 - Aug 2022,",
-    points: [
-      "Increased office revenue and clients by doubling the amount of bookings for deep tissue treatments by applying the optimal amount of pressure and working on client’s main areas of concern",
-      "Facilitated lasting pain relief for 20 clients a day in a small chiropractic office by effectively identifying and treating client’s concerns, adhering to precise schedules and sharing impeccable communication with the Doctor and his clients",
-    ],
-  },
+
   {
     title: "Owner & Therapist",
     company_name: "Independent Massage Practices",
@@ -167,10 +157,23 @@ const experiences = [
     iconBg: "#fff",
     date: "Jan 2011 - 2020",
     points: [
+      "Facilitated lasting pain relief for 20 clients a day in a small chiropractic office by effectively identifying and treating client’s concerns, adhering to precise schedules and sharing impeccable communication with the Doctor and his clients",
       "Supported significant and lasting pain relief for several thousands diverse clients over 12 years by utilizing empathetic listening, therapeutic intents and precise deep tissue massage techniques",
       "Started and grew four separate wellness companies as a sole proprietor by successfully managing scheduling, marketing and clients needs to improve their experience",
     ],
   },
+  {
+    title: "Vegan Activist",
+    company_name: "Anonymous For The Voiceless, Animal Defense League, Peta, Animal Actvism Mentorship, Connect For Animals",
+    icon: massage,
+    iconBg: "#fff",
+    date: "Jul 2018 - Present",
+    points: [
+      "3 years experience demonstrating, outreaching and speaking to hundreds of people with 6 animal rights organizations",
+"Delivered 3 separate keynote presentations for the Vegetarian Society",
+"Mentored 5 vegans to increase their animal rights activism as mentor for AAM and coached several  people to be vegan"
+    ],
+  }
 ];
 
 const testimonials = [
