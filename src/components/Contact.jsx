@@ -28,31 +28,36 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send(
-      "service_7u0w0cb",
-      "template_x5ku14t",
-      {
-        from_name: form.name,
-        to_name: "Benjahmin",
-        from_email: form.email,
-        to_email: "benjahmin.lakin@gmail.com",
-        message: form.message,
-      },
-      "u3tgC5BmdfoRyC9wbtAJ3"
-    )
-    .then(()=>{
-      setLoading(false);
-      alert('Thank you. I will get back to you soon.')
-      setForm({
-        name: "",
-        email: "",
-        message: "",
-      })
-    }, (error) => {
-      setLoading(false)
-      console.log(error)
-      alert("Something went wrong.")
-    })
+    emailjs
+      .send(
+        "service_7u0w0cb",
+        "template_x5ku14t",
+        {
+          from_name: form.name,
+          to_name: "Benjahmin",
+          from_email: form.email,
+          to_email: "benjahmin.lakin@gmail.com",
+          message: form.message,
+        },
+        "spKmDxSYI27eaBBpR"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank you. I will get back to you soon.");
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("Something went wrong.");
+        }
+      );
   };
 
   return (
