@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import massage from "./company/massage.png";
 import MCW from "./company/MCW.png"
 import brainStation from "./company/brainStation.png"
+import ara from "./company/ara.png";
 import team from "./team.png";
 import redditBot from "./redditBot.png"
 import iwarehouse from "./iwarehouse.png"
@@ -38,6 +39,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  ara,
   iwarehouse,
   redditBot,
   team,

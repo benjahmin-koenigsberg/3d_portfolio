@@ -33,7 +33,8 @@ import {
   massage,
   MCW,
   brainStation,
-  podify
+  podify,
+  ara
 } from "../assets";
 
 
@@ -165,7 +166,7 @@ const experiences = [
   {
     title: "Vegan Activist",
     company_name: "Anonymous For The Voiceless, Animal Defense League, Peta, Animal Actvism Mentorship, Connect For Animals",
-    icon: massage,
+    icon: ara,
     iconBg: "#fff",
     date: "Jul 2018 - Present",
     points: [
