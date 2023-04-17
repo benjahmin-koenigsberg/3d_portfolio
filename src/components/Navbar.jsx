@@ -23,7 +23,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img src={newLogo} alt="logo"
-          className=" w-16 h-16 object-contain" />
+          className=" w-14 h-14 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Benjahmin &nbsp;
             <span className="sm:block hidden">| &nbsp; Koenigsberg</span>
