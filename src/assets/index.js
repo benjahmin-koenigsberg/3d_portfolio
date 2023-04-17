@@ -37,10 +37,10 @@ import podify from "./podify.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import karim from "../assets/karim.jpeg"
+import light from "../assets/light.png"
 
 export {
-  karim,
+  light,
   ara,
   iwarehouse,
   redditBot,

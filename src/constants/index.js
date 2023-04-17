@@ -35,7 +35,7 @@ import {
   brainStation,
   podify,
   ara,
-  karim
+  light
 } from "../assets";
 
 
@@ -64,8 +64,8 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Team Player",
-    icon: team,
+    title: "Entrepreneur",
+    icon: light,
   },
   {
     title: "Vegan Activist",
