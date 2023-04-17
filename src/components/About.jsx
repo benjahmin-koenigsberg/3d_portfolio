@@ -42,7 +42,7 @@ const About = () => {
    variants={fadeIn("","", 0.1, 1)}
    className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
    >
-I am passioante software developer and animal rights activist. I love to colloborate with others to solve problems efficently and create accesible and beautifl applications that improve lives!
+I am a passioante software developer and animal rights activist. I love to colloborate with others to solve problems efficiently and create accesible and beautifl applications that improve lives!
    </motion.p>
    <div className='mt-20 flex flex-wrap gap-10'>
     {services.map((service, index) => (

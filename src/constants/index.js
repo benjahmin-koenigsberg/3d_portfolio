@@ -138,7 +138,7 @@ const experiences = [
     date: "Apr 2023",
     points: [
       "Collaborated with designers, product managers, data scientists and other developers to create high-quality products.",
-      "Developed a backend solutions to improve Sptofy's listerner and creator experiences.",
+      "Developed a backend solutions to improve Sptofy's listener and creator experiences.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -182,7 +182,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I have been consistently impressed by Mr. Koenigsberg's attitue towards his work and performance on the job. He is conscientious and goal oriented employee with a true interest in helping others. He demonstates professionalism and compassion. He is punctial and reliable.",
+      "I have been consistently impressed by Mr. Koenigsberg's attitue towards his work and performance on the job. He is conscientious and goal oriented employee with a true interest in helping others. He demonstates professionalism and compassion. He is punctual and reliable.",
     name: "Dr. Karim Habayeb",
     designation: "Chiropractic Physician",
     company: "Miami Chiropractic and Wellness",
