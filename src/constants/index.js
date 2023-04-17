@@ -34,7 +34,8 @@ import {
   MCW,
   brainStation,
   podify,
-  ara
+  ara,
+  karim
 } from "../assets";
 
 
@@ -180,27 +181,31 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Great work! I was truly so impressed by your contributions! Hope you feel as proud and satisfied as you deserve. ",
+    name: "Patrick McCullough",
+    designation: "Lead Educator",
+    company: "Brain Station",
+    image:
+      "https://media.licdn.com/dms/image/C5603AQEMWG9AYvW-Uw/profile-displayphoto-shrink_200_200/0/1620741404815?e=1687392000&v=beta&t=0jGuuyfTIRT8yV5KTOtrDCxXG_ediXx3fpjMZBY_ba8",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I have been consistently impressed by Mr. Koenigsberg's attitue towards his work and performance on the job. He is conscientious and goal oriented employee with a true interest in helping others. He demonstates professionalism and compassion. He is punctial and reliable.",
+    name: "Dr. Karim Habayeb",
+    designation: "Chiropractic Physician",
+    company: "Miami Chiropractic and Wellness",
+    image:
+      "https://media.licdn.com/dms/image/C4E03AQFGg5xN3fSlyg/profile-displayphoto-shrink_800_800/0/1517365745687?e=1687392000&v=beta&t=TpvPLELulVu5_Rh2LF6FIMhHBeN44e7Az12B6zh201U",
   },
+
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Benjahmin is a fantastic therapist.  He is kind and considerate, and easily adjusts his technique based on how you are feeling.  His deep tissue is OUTSTANDING.   He intuitively pays attention to what your muscles need at that particular moment. ",
+    name: "David Moss",
+    designation: "Director of Sourcing, Product Development and Sustainability",
+    company: "TomboyX",
+    image:
+      "https://media.licdn.com/dms/image/C5603AQEsX8qAI96AKQ/profile-displayphoto-shrink_800_800/0/1599606669910?e=1687392000&v=beta&t=7RMKuFL6mRhJTqFMOMJFgm6AtJZV0k54ju872yMTs6M",
   },
 ];
 

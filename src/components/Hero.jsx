@@ -15,17 +15,17 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I am <span className="text-[#915eff]">Benjahmin</span>
+            Hi, I am <span className="text-[#915eff] " >Benjahmin</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Software Engineer
+            Web Developer, Programmer & Animal Rights Activist
           </p>
           <br className="sm: block hidden" />
         </div>
       </div>
       <ComputersCanvas />
-      <div className='absolute xs:bottom-31.75 flex justify-center w-full items-center' >
-        <a href="#about" >
+      <div className="absolute xs:bottom-31.75 flex justify-center w-full items-center">
+        <a href="#about">
           {/* <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.dev
             animate={{y: [0,24,0]}}
