@@ -66,7 +66,7 @@ const services = [
     icon: team,
   },
   {
-    title: "Animal Rights Activist",
+    title: "Vegan Activist",
     icon: creator,
   },
 ];
@@ -121,7 +121,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "Software Engineer Bootcamp",
     company_name: "Brain Station",
     icon: brainStation,
     iconBg: "#fff",

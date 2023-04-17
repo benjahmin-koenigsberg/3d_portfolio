@@ -19,8 +19,8 @@ const computer = useGLTF('./macbook/scene.gltf')
       shadow-mapSize={1024}/>
       <primitive
       object={computer.scene}
-      scale={isMobile ? 13 : 17}
-      position={isMobile ? [0,-3.5,-2.2] : [0,-3.5,-1.5]}
+      scale={isMobile ? 13 : 15}
+      position={isMobile ? [0,-3.25,-2.2] : [0,-3.5,-1.5]}
       roation={[-0.1, -0.2, -.01]}/>
     </mesh>
   )
@@ -29,7 +29,7 @@ const computer = useGLTF('./macbook/scene.gltf')
 const ComputerCanvas = () => {
   const [ isMobile, setIsMobile] =useState(false);
 useEffect( () => {
-  const mediaQuery = window.matchMedia('(max-width: 500px)');
+  const mediaQuery = window.matchMedia('(max-width: 470px)');
   setIsMobile(mediaQuery.matches);
   const handleMediaQueryChange = (event) => {
     setIsMobile(event.matches)
