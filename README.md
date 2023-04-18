@@ -13,10 +13,10 @@ Checkout the live site www.benjahminkoenigsberg.com
 
 ## Built with
 
-Vite
-React
-React-three-fiber
-Tailwind 
+* Vite
+* React
+* React-three-fiber
+* Tailwind 
 
 ## Getting started
 
